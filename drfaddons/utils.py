@@ -34,8 +34,7 @@ class JsonResponse(HttpResponse):
     """
     def __init__(self, content, status=None, content_type='application/json'):
         data = dict()
-        data['data'] = content
-        data['status_code'] = status
+        data['detail'] = content
         json_text = json.dumps(data, default=json_serial)
         super(JsonResponse, self).__init__(
             content=json_text,
@@ -130,7 +129,6 @@ def validate_mobile(mobile):
     Parameters
     ----------
     mobile: str
-
     Returns
     -------
     bool
@@ -153,7 +151,6 @@ def paginate_data(searched_data, request_data):
                     show_serializer
     request_data: Serializer.data
                     It is the request data. It uses serializer_class.
-
     Returns
     -------
     data: dict
@@ -207,7 +204,6 @@ def send_message(message: str, subject: str, recip: list, recip_email: list,
         SMS feature is brought in.
     html_message: str
         HTML variant of message, if any.
-
     Returns
     -------
     sent: dict
