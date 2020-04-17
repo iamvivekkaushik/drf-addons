@@ -9,7 +9,7 @@ django-sendsms==0.4
 djangorestframework==3.9.1
 djangorestframework-jwt==1.11.0
 docutils==0.14
-idna==2.8
+idna==2.9
 imagesize==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.0
