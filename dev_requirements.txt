@@ -13,7 +13,7 @@ idna==2.8
 imagesize==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.0
-packaging==18.0
+packaging==20.3
 pkginfo==1.4.2
 Pygments==2.6.1
 PyJWT==1.7.1
