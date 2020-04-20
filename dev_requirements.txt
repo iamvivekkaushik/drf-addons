@@ -17,7 +17,7 @@ packaging==20.3
 pkginfo==1.4.2
 Pygments==2.6.1
 PyJWT==1.7.1
-pyparsing==2.3.0
+pyparsing==2.4.7
 pytz==2018.7
 readme-renderer==24.0
 requests==2.21.0
