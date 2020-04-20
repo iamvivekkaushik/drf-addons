@@ -3,4 +3,4 @@ django-filter==2.2.0
 django-sendsms==0.4
 djangorestframework>=3.8.0
 djangorestframework-jwt==1.11.0
-six==1.13.0
+six==1.14.0
