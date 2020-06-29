@@ -27,6 +27,6 @@ snowballstemmer==1.2.1
 Sphinx==3.0.2
 sphinxcontrib-websupport==1.1.0
 tqdm==4.45.0
-twine==1.12.1
+twine==3.2.0
 urllib3==1.25.9
 webencodings==0.5.1
